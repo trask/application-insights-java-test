@@ -1,0 +1,17 @@
+/.DS_Store
+/.project
+.idea/
+target
+.idea/
+/control.tar.gz
+/data.tar.gz
+/debian-binary
+
+#Intellij ignores
+*iws
+*ipr
+*iml
+.idea
+
+#local secrets
+application-dev.properties
