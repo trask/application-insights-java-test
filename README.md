@@ -21,10 +21,3 @@ command
 root-public-service $ APPLICATIONINSIGHTS_CONNECTION_STRING=InstrumentationKey=[your ikey from the resource] mvn spring-boot:run
 bar-service $ APPLICATIONINSIGHTS_CONNECTION_STRING=InstrumentationKey=[your ikey from the resource] mvn spring-boot:run
 ```   
-
-Ensure that application insights is configured by placing an file named *application-dev.properties* inside
-the *src/main/resources* directory of each service. The file should contain the following
-```
-# Specify the instrumentation key of your Application Insights resource
-azure.application-insights.instrumentation-key=[your ikey from the resource]
-```
