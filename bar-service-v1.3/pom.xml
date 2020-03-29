@@ -47,6 +47,9 @@
                     <profiles>
                         <profile>dev</profile>
                     </profiles>
+                    <agents>
+                        <agent>${project.basedir}/../applicationinsights-agent-3.0.0-PRIVATEPREVIEW.jar</agent>
+                    </agents>
                 </configuration>
             </plugin>
         </plugins>

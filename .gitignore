@@ -15,3 +15,5 @@ target
 
 #local secrets
 application-dev.properties
+
+*.jar
