@@ -19,11 +19,11 @@ public class SleepyHello {
         };
     }
 
-    @GetMapping(value = "/cibil")
+    @GetMapping(value = "/remote-cibil")
     public Flux<Integer> remoteCibil() {
         return WebClient.create()
                 .get()
-                .uri("http://localhost:8081/random-cibil")
+                .uri("http://localhost:8081/cibil")
                 .retrieve()
                 .bodyToFlux(Integer.class);
     }

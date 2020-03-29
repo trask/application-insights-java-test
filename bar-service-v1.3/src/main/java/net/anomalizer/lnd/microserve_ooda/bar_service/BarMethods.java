@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class BarMethods {
-    @GetMapping(value = "/random-cibil")
+    @GetMapping(value = "/cibil")
     public Integer cibil()
     {
         return ThreadLocalRandom.current().nextInt(300, 851);
